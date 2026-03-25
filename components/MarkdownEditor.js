@@ -1,5 +1,4 @@
 import { useRef, useEffect, useState } from 'react';
-import '../styles/editor.css';
 
 export default function MarkdownEditor({ value, onChange }) {
   const textareaRef = useRef(null);
